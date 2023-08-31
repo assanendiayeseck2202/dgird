@@ -1,0 +1,3 @@
+//MO379-380.TXT ANA00379 TO ANA00380
+utiilisat		TAR	839	nouvelle taille enregistrement : 839
+utiilisat	nom_sur_fiche	RUB+		nom_sur_fiche est une nouvelle rubrique

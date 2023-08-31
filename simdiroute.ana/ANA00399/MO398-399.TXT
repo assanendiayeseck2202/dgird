@@ -1,0 +1,17 @@
+//MO398-399.TXT ANA00398 TO ANA00399
+montest$		TAR	608	nouvelle taille enregistrement : 608
+montest$	realisation	NNR	Réalisations envisagées	ATTENTION : la rubrique Réalisations envisagées a pour nouveau nom realisation
+montest$	realisation	CNW	Chaîne$Chaîne unicode	la rubrique realisation a pour nouveau type Chaîne
+montest$	Date prévue de lancement de la procédure de sélection	CNW	Date (aaaammjj)$Date et Heure (aaaammjjhhmmssccc)	la rubrique Date prévue de lancement de la procédure de sélection a pour nouveau type Date (aaaammjj)
+montest$	source_fi	NNR	Source de financement	ATTENTION : la rubrique Source de financement a pour nouveau nom source_fi
+montest$	source_fi	CNW	Chaîne$Chaîne unicode	la rubrique source_fi a pour nouveau type Chaîne
+montest$	Type_marche	NNR	Type de marché	ATTENTION : la rubrique Type de marché a pour nouveau nom Type_marche
+montest$	Type_marche	CNW	Chaîne$Chaîne unicode	la rubrique Type_marche a pour nouveau type Chaîne
+montest$	Mode_passation	NNR	Mode de passation	ATTENTION : la rubrique Mode de passation a pour nouveau nom Mode_passation
+montest$	Mode_passation	CNW	Chaîne$Chaîne unicode	la rubrique Mode_passation a pour nouveau type Chaîne
+montest$	date_prev_attribution	NNR	Date prévue d’attribution du  contrat	ATTENTION : la rubrique Date prévue d’attribution du  contrat a pour nouveau nom date_prev_attribution
+montest$	date_prev_attribution	CNW	Date (aaaammjj)$Date et Heure (aaaammjjhhmmssccc)	la rubrique date_prev_attribution a pour nouveau type Date (aaaammjj)
+montest$	date_prev_demarrage	NNR	Date prévue de démarrage des prestations	ATTENTION : la rubrique Date prévue de démarrage des prestations a pour nouveau nom date_prev_demarrage
+montest$	date_prev_demarrage	CNW	Date (aaaammjj)$Date et Heure (aaaammjjhhmmssccc)	la rubrique date_prev_demarrage a pour nouveau type Date (aaaammjj)
+montest$	date_prev_achevement	NNR	Date prévue d’achèvement des prestations	ATTENTION : la rubrique Date prévue d’achèvement des prestations a pour nouveau nom date_prev_achevement
+montest$	date_prev_achevement	CNW	Date (aaaammjj)$Date et Heure (aaaammjjhhmmssccc)	la rubrique date_prev_achevement a pour nouveau type Date (aaaammjj)

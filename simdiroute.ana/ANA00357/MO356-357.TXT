@@ -1,0 +1,3 @@
+//MO356-357.TXT ANA00356 TO ANA00357
+Imputation		TAR	4494	nouvelle taille enregistrement : 4494
+Imputation	imputation_direct_a_nivo_buro	RUB+		imputation_direct_a_nivo_buro est une nouvelle rubrique

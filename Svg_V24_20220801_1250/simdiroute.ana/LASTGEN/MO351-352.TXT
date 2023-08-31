@@ -1,0 +1,3 @@
+//MO351-352.TXT ANA00351 TO ANA00352
+Missions		TAR	4378	nouvelle taille enregistrement : 4378
+Missions	avec_frais	RUB+		avec_frais est une nouvelle rubrique

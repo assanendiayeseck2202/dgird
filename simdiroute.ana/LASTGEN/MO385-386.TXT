@@ -1,0 +1,6 @@
+//MO385-386.TXT ANA00385 TO ANA00386
+etapes_ppm		TAR	126	nouvelle taille enregistrement : 126
+etapes_ppm	Des_etape	TAI+	25	la rubrique Des_etape a comme nouvelle taille 101 au lieu de 76
+tache_ppm		TAR	277	nouvelle taille enregistrement : 277
+tache_ppm	Des_tache	TAI+	50	la rubrique Des_tache a comme nouvelle taille 151 au lieu de 101
+tache_ppm	Des_etape	TAI+	25	la rubrique Des_etape a comme nouvelle taille 101 au lieu de 76

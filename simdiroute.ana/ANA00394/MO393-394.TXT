@@ -1,0 +1,3 @@
+//MO393-394.TXT ANA00393 TO ANA00394
+suivi_ppm_global		TAR	137	nouvelle taille enregistrement : 137
+suivi_ppm_global	c_done	RUB+		c_done est une nouvelle rubrique

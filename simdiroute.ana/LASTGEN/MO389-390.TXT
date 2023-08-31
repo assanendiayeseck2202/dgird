@@ -1,0 +1,6 @@
+//MO389-390.TXT ANA00389 TO ANA00390
+Chrono		NFI		nouveau fichier
+ppm		NWL	ppm (macle_ppm) et Chrono (Macle_ppm)	Nouvelle liaison entre les fichiers ppm (macle_ppm) et Chrono (Macle_ppm)
+Chrono		FRN		
+Chrono	reali	RRN		
+Chrono	num_ordre	RRN		

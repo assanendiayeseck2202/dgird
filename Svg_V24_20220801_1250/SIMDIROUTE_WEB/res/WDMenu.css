@@ -1,0 +1,610 @@
+/*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*/
+/* Onglets													*/
+/* L'ordre a un importance : onglet puis menu vertical !!!	*/
+/*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*/
+
+/*	*	*	*	*	*	*	*/
+/* Elements principaux		*/
+/*	*	*	*	*	*	*	*/
+
+/* Style de l'onglet racine */
+TABLE.WDOngletMain
+{
+	margin: 0px;
+	padding: 0px;
+}
+
+/* Style des du conteneur de sous menu */
+DIV.WDSousOnglet
+{
+	position: relative;
+}
+
+/* Style des sous menu popup */
+DIV.WDSousOnglet TABLE
+{
+	display: none;
+	position: absolute;
+	left: 0px;
+	top: 1px;
+	margin: 0px;
+	padding: 0px;
+}
+
+.WDMenuOptionHover DIV.WDSousMenu TABLE, .WDOngletOptionHover DIV.WDSousMenu TABLE
+{
+	z-index: 987;
+}
+
+
+TR.WDOngletOptionB
+{
+	height: 0px;
+}
+
+TR.WDOngletOptionB DIV.WDSousOnglet
+{
+	height: 0px;
+}
+/*	*	*	*	*	*	*	*/
+/* Option d'onglet			*/
+/*	*	*	*	*	*	*	*/
+
+TD.WDOngletOptionG
+{
+	background-repeat: no-repeat;
+}
+TD.WDOngletOptionM
+{
+	background-repeat: repeat-x;
+	vertical-align: middle;
+	text-align: center;
+}
+TD.WDOngletOptionD
+{
+	background-repeat: no-repeat;
+}
+/* Style des liens */
+TD.WDOngletOptionM A
+{
+	white-space: nowrap;
+	text-decoration: none;
+	width: 100%;
+}
+
+/*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*/
+/* Menu vertical											*/
+/*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*/
+
+/*	*	*	*	*	*	*	*/
+/* Elements principaux		*/
+/*	*	*	*	*	*	*	*/
+
+/* Style du menu racine */
+TABLE.WDMenuMain
+{
+	margin: 0px;
+	padding: 0px;
+}
+
+/* Style des du conteneur de sous menu */
+DIV.WDSousMenu
+{
+	position: relative;
+}
+
+/* Style des sous menu popup */
+DIV.WDSousMenu TABLE
+{
+	display: none;
+	position: absolute;
+	left: 15px;
+	top: 0px;
+	margin: 0px;
+	padding: 0px;
+}
+
+/*	*	*	*	*	*	*	*/
+/* Options de menu			*/
+/*	*	*	*	*	*	*	*/
+
+/* Style d'une ligne d'option de menu */
+TR.WDMenuOption
+{
+}
+
+/* Style de la premi�re cellule (avec l'image) */
+TD.WDMenuTDImage
+{
+	padding-left: 1px;
+	text-align: center;
+	vertical-align: middle;
+}
+/* Style du DIV qui force la largeur de la colonne */
+/* La taille d�pend du menu et est fix� dans le fichier */
+TD.WDMenuTDImage DIV
+{
+	height: 1px
+}
+
+/* Style de la seconde cellule (avec le lien) */
+TD.WDMenuTDLien
+{
+	width: 100%
+}
+/* Style des liens */
+TD.WDMenuTDLien A
+{
+	white-space: nowrap;
+	text-decoration: none;
+	width: 100%;
+}
+
+/* Style de la troisi�me cellule (avec l'image popup) */
+TD.WDMenuTDPopup
+{
+	width : 0%;
+	vertical-align: middle;
+}
+
+TR.WDMenuSepHaut TD, TR.WDMenuSepHaut DIV
+{
+	height: 2px;
+}
+
+TR.WDMenuSepBas TD, TR.WDMenuSepBas DIV
+{
+	height: 2px;
+}
+
+
+/**
+ * Menu Adaptatif
+ */
+
+
+/*	*	*	*	*	*	*	*/
+/* Elements principaux		*/
+/*	*	*	*	*	*	*	*/
+
+/* Style de l'onglet racine */
+ul.WDOngletMain
+{
+	margin:0;
+	padding:0;
+  	list-style: none;
+}
+nav.wbMenuMain
+{
+	width:100%;
+}
+nav.wbMenuMain.wbLargeurRWD
+{
+	/*permet au nav de suivre la taille des fils => à changer selon qu'on a ou pas un tracker de taille de champ*/
+	display: table;
+	/*overflow-x:auto;*/
+}
+/* Style des du conteneur de sous menu */
+ul.WDOngletMain li.wbMenuOption
+{
+  	list-style: none;
+	position: relative;
+	vertical-align: middle;
+}
+
+/* Style des sous menu popup */
+ul.WDOngletMain ul.WDSousMenu
+{
+	position: absolute;
+	left: 0;
+	top: 100%;
+	margin:0;
+	padding:0;
+	border-collapse: separate;
+	/*margin-top: -0.25rem; on garde la 1ère option de sous menu alignée avec l'option courante*/
+}
+
+ul.WDOngletMain ul.WDSousMenu ul.WDSousMenu {
+    left: auto;
+    top: auto;
+    /*margin-top: 0.2rem; on garde la 1ère option de sous menu alignée avec l'option courante*/
+    position: absolute;
+}
+/*à prendre de l'édition 
+.wbLienMenu
+{
+min-width: 145px; 
+}
+*/
+
+/*	*	*	*	*	*	*	*/
+/* Option d'onglet			*/
+/*	*	*	*	*	*	*	*/
+
+
+/* Style des liens */
+.wbLienMenu
+{
+	white-space: nowrap;
+	text-decoration: none;
+	/*en horizontal : pour ne pas avoir de sortie de survol entre l'option et ses sous options + en vertical : pour respecter la largeur donnée*/		
+	display: block; 
+	/*display: inline-block;pour le vertical-align ?*/
+  	text-overflow: ellipsis;
+  	overflow: hidden;
+  	/*astuce de inline-block pour l'alignement vertical milieu http://stackoverflow.com/questions/7273338/how-to-vertically-align-an-image-inside-div */
+	vertical-align: middle;
+	height: 100%;
+	width: 100%;
+	box-sizing: border-box;/*pour le padding en cas de flèche*/
+	cursor: pointer;/*pour ne pas avoir le curseur de texte sur les liens avec sous menu */
+	/*text-align: center;pas de centrage par défaut */
+}
+
+.wbLienMenu:before, .wbLienMenu>.wbLienHauteur
+{
+    height: 100%;
+    vertical-align: middle;
+    content: "";
+    display: inline-block;
+    /*min-height: 37px;reprendre de l'édition*/
+}
+.WDMenuIconCheckbox
+{
+	display: none;
+}
+.wbOptionFleche
+{
+  background-position: right center;
+  background-repeat: no-repeat;
+  /* background-image: spécifique; */
+  background-image: url('MenuDeroulantPopup.gif'); /* TODO refaire l'image avec le picto au centre pour permettre la rotation*/
+  padding-left :1rem;  /*<=>width mais avec la certitude de l'appliquer */
+  background-size: 1rem auto;
+  display: block;
+  position: absolute;
+  right: 0;
+  height: 100%;
+  top: 0;  
+}
+/* pas de padding par défaut
+.wbOptionLien>.wbLienMenu 
+{
+    padding-right: 1rem;
+}
+*/
+.wbOptionAvecSousMenu,.wbOptionLien
+{
+	position: relative;
+	/* évite de voir les bordures des sous menus en height:0 (sûrement inutile sur le wbOptionLien)*/
+    /*overflow: hidden; semble devenu inutile et gêne en cas de rotation car les bouts de l'option sont tronqués */
+}
+
+.wbMenuOption:hover>.wbOptionAvecSousMenu 
+{
+    overflow: visible;
+}
+
+/* communs aux menus souris */
+/* Style des sous menu popup invisible par dÃ©faut*/
+.wbMenuSouris ul.WDOngletMain ul.WDSousMenu
+{
+	/*display: none;*/
+	height: 0;
+  	overflow: hidden;		
+	opacity:0 !important;/* priorité face au cas d'un style sur le UL avec opacité */
+	pointer-events: none;/*évite qu'un sous menu de menu vertical ne soit hover lors du survol d'un sous menu de l'option frère précédente*/
+}
+/* Style des sous menu popup */
+.wbMenuSouris ul.WDOngletMain li.wbMenuOption:hover>.wbOptionAvecSousMenu>.wbOptionSousMenu>ul.WDSousMenu
+{
+	/*display:table; <-- utile ? parce que cela cause un changement de largeur bizarre qui oblige à placer un width:100%;
+	width:100%;*/
+	height: auto;
+  	overflow: visible;	  
+  	opacity:1 !important;/* priorité face au cas d'un style sur le UL avec opacité */	
+  	pointer-events: all;/*cf. pointer-events: none qui évite qu'un sous menu de menu vertical ne soit hover lors du survol d'un sous menu de l'option frère précédente*/
+}
+
+ul.WDOngletMain hr
+{
+	height:1px;
+	overflow:hidden;
+	margin:0;	
+}
+
+/*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*/
+/* Menu horizontal											*/
+/*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*/
+nav.wbMenuMain.wbMenuHorizontal.wbMenuSouris
+{
+	display:table;/*pour que le fils ul table-row aille jusqu'au bout de la largeur de son parent nav*/
+}
+.wbMenuHorizontal.wbMenuSouris ul.WDSousMenu
+{
+	display: table;/*assure l'uniformité des largeurs de sous options */
+}
+
+/* Style de l'onglet racine */
+.wbMenuHorizontal.wbMenuSouris ul.WDOngletMain
+{
+	display: table-row;
+}
+/* Style du conteneur de sous menu */
+.wbMenuHorizontal.wbMenuSouris ul.WDOngletMain>li.wbMenuOption
+{
+  	display: table-cell;  	
+  	z-index: 799;/*passe au dessus*/
+}
+
+.wbMenuHorizontal.wbMenuSouris ul.WDOngletMain>li ul.WDSousMenu li.wbMenuOption
+{
+	/*display:table-row; block permet d'utiliser le margin, au cas où*/
+	display:block;
+}
+
+.wbMenuHorizontal.wbMenuSouris ul.WDOngletMain ul.WDSousMenu ul.WDSousMenu
+{
+    left: 100%;
+    
+    position: absolute;
+
+	/*top: 0; on garde la 1ère option de sous menu alignée avec l'option courante selon les tailles d'édition*/
+	/* même avec une hauteur différente de l'édition, l'alignement est correct*/
+  	top: 50%;
+  	/*margin-top: -1rem; non, 0.55 préféré empiriquement pour les cas où l'option est très petite en hauteur*/
+  	margin-top: -0.55rem;
+  	z-index: 1; /*pour passer au dessus de l'option dont on est issu */
+}
+
+.wbMenuHorizontal.wbMenuSouris .wbOptionFleche
+{
+  display:none;
+}
+.wbMenuHorizontal.wbMenuSouris li.wbMenuOption ul.WDSousMenu .wbOptionFleche,.wbMenuHorizontal.wbMenuSouris li.wbMenuOption ul.WDSousMenu .wbLienMenu
+{
+  display: block;
+}
+
+/* 
+=> Mieux vaut laisser le padding intact et laisser le style CSS s'appliquer. 
+Il faut que le style CSS par défaut applique cette valeur car sinon l'appliquer ici serait la faire passer en priorité
+
+pas pour le 1er niveau vu que la flèche est masquée 
+.wbMenuHorizontal.wbMenuSouris .wbOptionLien>.wbLienMenu 
+{
+    padding-right: 0;
+}
+.wbMenuHorizontal.wbMenuSouris ul.WDSousMenu .wbOptionLien>.wbLienMenu 
+{
+    padding-right: 1rem;
+*/
+}
+.wbMenuHorizontal.wbMenuSouris ul.WDOngletMain ul.WDSousMenu
+{
+	width: 100%; /*le 1er sous menu prend la même largeur que le parent */	
+}
+.wbMenuHorizontal.wbMenuSouris ul.WDOngletMain ul.WDSousMenu ul.WDSousMenu
+{
+	width: auto; /*les autres ont leur propre taille */	
+}
+.wbMenuHorizontal.wbMenuSouris .wbOptionFleche
+{
+	pointer-events:none;
+}
+}
+
+/*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*/
+/* Menu vertical mobile										*/
+/*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*/
+
+.wbMenuVertical.wbMenuMobile ul.WDOngletMain
+{
+	display: inline-block;
+	width: 100%;
+}
+/* burger icon sur le champ menu
+.WDMenuIconCheckbox
+{
+	display: inline;
+	visibility: hidden;
+	height: 0;
+	margin-bottom: 1rem;
+}
+.WDOngletMain+label:after
+{
+	content:"☰";
+	position: absolute;
+	top: 0;
+	left: 0;
+
+}
+input+ul.WDOngletMain
+{
+	display: none;
+}
+input:checked+ul.WDOngletMain
+{
+	display: inline-block;
+}
+*/
+/* Style des du conteneur de sous menu */
+.wbMenuVertical.wbMenuMobile ul.WDOngletMain>li.wbMenuOption
+{
+	/*display:table-row; non car le sous menu sont du coup affichés à une largeur plus petite que le menu parent */
+	display:block;
+}
+
+/* Style des sous menu popup visible par défaut */
+.wbMenuVertical.wbMenuMobile ul.WDOngletMain li.wbMenuOption ul.WDSousMenu, .wbMenuVertical.wbMenuMobile ul.WDOngletMain li.wbMenuOption ul.WDSousMenu
+{
+	display:block;
+	position:static;
+	margin:0;
+	height: auto;
+  	overflow: visible;		
+  	opacity:1 !important;/* priorité face au cas d'un style sur le UL avec opacité */	
+}
+/* pas d'indentation
+ul.WDOngletMain li.wbMenuOption ul
+{
+
+	margin-left:1rem;
+}
+*/
+.wbMenuVertical.wbMenuMobile .wbOptionLien>.wbLienMenu
+{
+	padding-left: 1rem;
+}
+.wbMenuVertical.wbMenuMobile ul.WDOngletMain>li ul.WDSousMenu li.wbMenuOption
+{
+	/*display:table-row; non car le sous menu sont du coup affichés à une largeur plus petite que le menu parent */
+	display:block;
+}
+
+.wbMenuVertical.wbMenuMobile .wbOptionFleche
+{
+   transform:rotateZ(90deg);
+   transition:transform 300ms ease;
+}
+.wbMenuVertical.wbMenuMobile .wbCollapse .wbOptionFleche
+{
+	transform:rotateZ(-90deg);
+}
+.wbMenuVertical.wbMenuMobile ul.WDOngletMain ul.WDSousMenu
+{
+	width: auto; /*le 1er sous menu prend sa largeur */	
+}
+.wbMenuVertical.wbMenuMobile ul.WDOngletMain ul.WDSousMenu ul.WDSousMenu
+{
+	width: auto; /*les autres ont leur propre taille */	
+}
+
+.wbMenuVertical.wbMenuMobile .wbCollapse>.wbOptionAvecSousMenu>.wbOptionSousMenu>ul.WDSousMenu
+{
+	display: none !important;
+}
+.wbMenuVertical.wbMenuMobile .wbCollapse.wbCollapsing>.wbOptionAvecSousMenu>.wbOptionSousMenu>ul.WDSousMenu
+{
+	display: block !important;
+}
+.wbMenuVertical.wbMenuMobile ul.WDSousMenu ul.WDSousMenu 
+{
+    border-right: none !important;
+    border-left: none !important;
+}
+.wbMenuVertical.wbMenuMobile .wbOptionFleche
+{
+/*  right: 0; position à gauche préférée pour ne pas être proche de l'ascenseur du nav*/
+  right:auto; 
+  left:0; 
+}
+
+/*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*/
+/* Menu vertical souris										*/
+/*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*/
+
+/* Style des sous menu popup */
+.wbMenuVertical.wbMenuSouris ul.WDSousMenu
+{	
+	position: absolute;
+	left: auto;
+	top: 50%;
+	margin:0;
+	padding:0;
+	right: auto;
+	margin-top: -0.6rem;/*on garde la 1Ã¨re option de sous menu alignÃ©e avec l'option courante*/
+}
+.wbMenuVertical.wbMenuSouris ul.WDSousMenu ul.WDSousMenu {
+    /* pour ne pas passer en auto et conserver le 50% */
+    top: 50%;
+}
+
+
+.wbMenuVertical.wbMenuSouris li.wbOptionLien {
+    display: table-cell;
+    width: 100%;
+}
+
+.wbMenuVertical.wbMenuSouris li.wbOptionSousMenu {
+    display: table-cell;
+}
+
+
+/* utile pour que les options racines soient adaptées au contenu, */
+/* sinon le survol du menu ancré en largeur dévoilerait les sous options en dehors de l'écran */
+/* => NON, il faut justement respecter la taille d'édition. A celle-ci d'être correcte. Il ne faut pas adapter au contenu sans raison!
+.wbMenuVertical.wbMenuSouris .wbMenuOption {
+    display: table-row; 
+}
+*/
+
+.wbMenuVertical.wbMenuSouris ul.wbOptionAvecSousMenu 
+{
+	/* utile pour que les options prennent bien toute la largeur disponible */
+    display: table;
+    width:100%;
+}
+
+/** suggesttions  **/
+
+/* Traînée de suivi entre sous options  :
+.wbAvecSousMenu:hover>.wbOptionAvecSousMenu>.wbOptionLien a:not(:hover) {
+    background-color: red;
+}
+*/
+
+/* * * * * * * * * * * */
+/* Barre de navigation */
+/* * * * * * * * * * * */
+
+.wbChampBarreNavigation>* /*mieux viser la table du champ ? */
+{
+	position: relative;
+	margin:0 !important; /*raz la margin basse qui pousse en cas d'ouverture de la barre */
+	border-collapse: separate;/*permet l'application de bord et arrondi */
+	box-sizing : border-box;
+}
+.wbChampBarreNavigation .wbChampVoletAmovibleBarreNavigation 
+{
+	display: block;
+}
+.wbBarreCompacte .wbChampVoletAmovibleBarreNavigation 
+{
+	display: block;
+	z-index: 799;/*passe au dessus*/
+}
+.wbBarreCompacte .wbChampVoletAmovibleBarreNavigation.wbCollapse 
+{
+	display: none;
+}
+
+/*  le volet devient superposable quand la barre est compacte */
+.wbBarreCompacte .wbChampVoletAmovibleBarreNavigation 
+{
+    position:absolute;
+}
+/* par défaut, le volet est sous la barre */
+.wbBarreCompacte .wbChampVoletAmovibleBarreNavigation 
+{
+    left:0;
+    top:100%;
+    width:100%;
+}
+
+/** éléments communs à définir en fin pour être plus importants */
+
+.wbPictoFleche
+{
+    width: 0;
+    height: 0;
+    border-top: 0.1875rem solid transparent;
+    border-bottom: 0.1875rem solid transparent;
+    border-left: 0.1875rem solid black;
+    margin: 0.3125rem 0.375rem 0.3125rem 0.4375rem;
+    padding: 0;
+    background-image: none;
+    /* centrage vertical */
+    top: 50%;
+    margin-top: -0.1875rem;
+}

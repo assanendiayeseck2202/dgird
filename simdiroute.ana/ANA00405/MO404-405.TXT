@@ -1,0 +1,2 @@
+//MO404-405.TXT ANA00404 TO ANA00405
+connect_diroute		CNX		

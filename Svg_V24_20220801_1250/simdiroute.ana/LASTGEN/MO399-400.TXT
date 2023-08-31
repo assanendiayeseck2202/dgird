@@ -1,0 +1,2 @@
+//MO399-400.TXT ANA00399 TO ANA00400
+montest$	numordre	NNR	N° ORD	ATTENTION : la rubrique N° ORD a pour nouveau nom numordre

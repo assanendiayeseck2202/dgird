@@ -1,0 +1,3 @@
+//MO369-370.TXT ANA00369 TO ANA00370
+an_session		TAR	26	nouvelle taille enregistrement : 26
+an_session	Dernum_an_session	RUB+		Dernum_an_session est une nouvelle rubrique

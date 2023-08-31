@@ -1,0 +1,2 @@
+//MO405-406.TXT ANA00405 TO ANA00406
+Arrivees	Capacite_avion	NNR	contenu_fond_dossier	ATTENTION : la rubrique contenu_fond_dossier a pour nouveau nom Capacite_avion

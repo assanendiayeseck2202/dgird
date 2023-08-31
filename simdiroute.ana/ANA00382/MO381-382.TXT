@@ -1,0 +1,4 @@
+//MO381-382.TXT ANA00381 TO ANA00382
+notif_acteurs_principaux		TAR	89	nouvelle taille enregistrement : 89
+notif_acteurs_principaux	Macle_repli_arrivee	RUB+		Macle_repli_arrivee est une nouvelle clé
+Arrivees		NWL	Arrivees (macle_repli_arrivee) et notif_acteurs_principaux (Macle_repli_arrivee)	Nouvelle liaison entre les fichiers Arrivees (macle_repli_arrivee) et notif_acteurs_principaux (Macle_repli_arrivee)

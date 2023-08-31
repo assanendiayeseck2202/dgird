@@ -1,0 +1,3 @@
+//MO357-358.TXT ANA00357 TO ANA00358
+acteurs_principaux		TAR	417	nouvelle taille enregistrement : 417
+acteurs_principaux	num_ordre	TAI+	3	la rubrique num_ordre a comme nouvelle taille 8 au lieu de 5

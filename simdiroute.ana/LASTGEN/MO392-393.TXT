@@ -1,0 +1,9 @@
+//MO392-393.TXT ANA00392 TO ANA00393
+doc_validation_ppm		TAR	638	nouvelle taille enregistrement : 638
+doc_validation_ppm	IDsuivi_ppm_global	RUB+		IDsuivi_ppm_global est une nouvelle clé
+doc_validation_ppm	Des_an	RUB-		la clé Des_an est supprimée
+suivi_ppm_global		NFI		nouveau fichier
+an_session		NWL	an_session (Des_an) et suivi_ppm_global (Des_an)	Nouvelle liaison entre les fichiers an_session (Des_an) et suivi_ppm_global (Des_an)
+suivi_ppm_global		NWL	suivi_ppm_global (IDsuivi_ppm_global) et doc_validation_ppm (IDsuivi_ppm_global)	Nouvelle liaison entre les fichiers suivi_ppm_global (IDsuivi_ppm_global) et doc_validation_ppm (IDsuivi_ppm_global)
+an_session		DEL	an_session (Des_an) et doc_validation_ppm (Des_an)	Liaison supprimée entre les fichiers an_session (Des_an) et doc_validation_ppm (Des_an)
+suivi_ppm_global	num_ordre	RRN		

@@ -1,0 +1,3 @@
+//MO363-364.TXT ANA00363 TO ANA00364
+ppm		TAR	797	nouvelle taille enregistrement : 797
+ppm	lentite	RUB+		lentite est une nouvelle rubrique

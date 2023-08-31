@@ -1,0 +1,2 @@
+//MO361-362.TXT ANA00361 TO ANA00362
+an_session		NFI		nouveau fichier

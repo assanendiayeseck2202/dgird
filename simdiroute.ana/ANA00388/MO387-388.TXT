@@ -1,0 +1,3 @@
+//MO387-388.TXT ANA00387 TO ANA00388
+doc_validation_ppm		NFI		nouveau fichier
+an_session		NWL	an_session (Des_an) et doc_validation_ppm (Des_an)	Nouvelle liaison entre les fichiers an_session (Des_an) et doc_validation_ppm (Des_an)

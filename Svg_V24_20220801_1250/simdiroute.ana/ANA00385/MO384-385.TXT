@@ -1,0 +1,2 @@
+//MO384-385.TXT ANA00384 TO ANA00385
+connect_diroute		CNX		

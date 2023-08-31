@@ -1,0 +1,7 @@
+//MO383-384.TXT ANA00383 TO ANA00384
+etapes_ppm		TAR	101	nouvelle taille enregistrement : 101
+etapes_ppm	num_ordre	RUB+		num_ordre est une nouvelle clé
+tache_ppm		TAR	202	nouvelle taille enregistrement : 202
+tache_ppm	num_ordre	RUB+		num_ordre est une nouvelle clé
+etapes_ppm	num_ordre	RRN		
+tache_ppm	num_ordre	RRN		

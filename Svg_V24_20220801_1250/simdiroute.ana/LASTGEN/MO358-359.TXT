@@ -1,0 +1,7 @@
+//MO358-359.TXT ANA00358 TO ANA00359
+organisations_admin		TAR	1034	nouvelle taille enregistrement : 1034
+organisations_admin	num_ordre	TAI+	3	la rubrique num_ordre a comme nouvelle taille 8 au lieu de 5
+acteurs_copie_reponses		TAR	417	nouvelle taille enregistrement : 417
+acteurs_copie_reponses	num_ordre	TAI+	3	la rubrique num_ordre a comme nouvelle taille 8 au lieu de 5
+entite_premier_niveau		TAR	851	nouvelle taille enregistrement : 851
+entite_premier_niveau	num_ordre	TAI+	3	la rubrique num_ordre a comme nouvelle taille 8 au lieu de 5

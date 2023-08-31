@@ -1,0 +1,16 @@
+//MO353-354.TXT ANA00353 TO ANA00354
+type_reunion		FIC-	entite_budget	Fichier supprimé entite_budget
+type_reunion		FIC-	annee_budgetaire	Fichier supprimé annee_budgetaire
+type_reunion		FIC-	budget	Fichier supprimé budget
+type_reunion		FIC-	details_budget	Fichier supprimé details_budget
+type_reunion		FIC-	dest_nat	Fichier supprimé dest_nat
+type_reunion		FIC-	factures	Fichier supprimé factures
+type_reunion		FIC-	depenses	Fichier supprimé depenses
+type_reunion		FIC-	engagements	Fichier supprimé engagements
+annee_budgetaire		DEL	annee_budgetaire (an_budget) et budget (An_budget)	Liaison supprimée entre les fichiers annee_budgetaire (an_budget) et budget (An_budget)
+budget		DEL	budget (IDbudget) et details_budget (IDbudget)	Liaison supprimée entre les fichiers budget (IDbudget) et details_budget (IDbudget)
+entite_budget		DEL	entite_budget (code_entite_budget) et budget (Destination)	Liaison supprimée entre les fichiers entite_budget (code_entite_budget) et budget (Destination)
+dest_nat		DEL	dest_nat (Destinationnature_budgetAn_budget1) et budget (CleComp)	Liaison supprimée entre les fichiers dest_nat (Destinationnature_budgetAn_budget1) et budget (CleComp)
+details_budget		DEL	details_budget (Iddetailsbudget) et factures (Iddetailsbudget)	Liaison supprimée entre les fichiers details_budget (Iddetailsbudget) et factures (Iddetailsbudget)
+details_budget		DEL	details_budget (Iddetailsbudget) et depenses (Iddetailsbudget)	Liaison supprimée entre les fichiers details_budget (Iddetailsbudget) et depenses (Iddetailsbudget)
+details_budget		DEL	details_budget (Iddetailsbudget) et engagements (Iddetailsbudget)	Liaison supprimée entre les fichiers details_budget (Iddetailsbudget) et engagements (Iddetailsbudget)

@@ -1,0 +1,3 @@
+//MO391-392.TXT ANA00391 TO ANA00392
+tache_ppm		TAR	277	nouvelle taille enregistrement : 277
+tache_ppm	concerne_ppm	RUB-		la rubrique concerne_ppm est supprimée

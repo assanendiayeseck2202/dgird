@@ -1,0 +1,4 @@
+//MO397-398.TXT ANA00397 TO ANA00398
+montest$		BASE		La base du fichier est passée de HFSQL Classic à HFSQL Client/Serveur
+montest$		FCNX+	connect_diroute	
+montest$		FRN		

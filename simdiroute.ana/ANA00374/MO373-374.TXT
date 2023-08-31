@@ -1,0 +1,3 @@
+//MO373-374.TXT ANA00373 TO ANA00374
+Missions		TAR	4430	nouvelle taille enregistrement : 4430
+Missions	mission_a_letranger	RUB+		mission_a_letranger est une nouvelle rubrique

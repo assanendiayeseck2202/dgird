@@ -1,0 +1,3 @@
+//MO374-375.TXT ANA00374 TO ANA00375
+ppm		TAR	1234	nouvelle taille enregistrement : 1234
+ppm	degre_avance_ppm	RUB+		degre_avance_ppm est une nouvelle rubrique

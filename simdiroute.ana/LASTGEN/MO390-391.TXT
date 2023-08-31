@@ -1,0 +1,5 @@
+//MO390-391.TXT ANA00390 TO ANA00391
+etapes_ppm		TAR	127	nouvelle taille enregistrement : 127
+etapes_ppm	concerne_ppm	RUB+		concerne_ppm est une nouvelle rubrique
+tache_ppm		TAR	278	nouvelle taille enregistrement : 278
+tache_ppm	concerne_ppm	RUB+		concerne_ppm est une nouvelle rubrique

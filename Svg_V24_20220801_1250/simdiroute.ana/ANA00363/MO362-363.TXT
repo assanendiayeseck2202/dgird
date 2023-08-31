@@ -1,0 +1,2 @@
+//MO362-363.TXT ANA00362 TO ANA00363
+an_session	Des_an	CLEU*		la rubrique Des_an est maintenant une clé

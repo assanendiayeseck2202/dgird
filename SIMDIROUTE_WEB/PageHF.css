@@ -1,0 +1,151 @@
+.Simple{font-family:Arial, Helvetica, sans-serif;font-size:9pt;color:#2D2D2D;}
+.Simple-Bold{font-family:Arial, Helvetica, sans-serif;font-size:9pt;font-weight:bold;color:#2D2D2D;}
+.Simple-Italic{font-family:Arial, Helvetica, sans-serif;font-size:9pt;font-style:italic;color:#2D2D2D;}
+.Simple-Color{font-family:Arial, Helvetica, sans-serif;font-size:9pt;color:#003399;}
+.Simple-Color-Bold{font-family:Arial, Helvetica, sans-serif;font-size:9pt;font-weight:bold;color:#003399;}
+.Simple-Color-Italic{font-family:Arial, Helvetica, sans-serif;font-size:9pt;font-style:italic;color:#003399;}
+.Simple-BckgrdColor{font-family:Arial, Helvetica, sans-serif;font-size:9pt;color:#2D2D2D;background-color:#BFBFBF;}
+.Simple-Gray{font-family:Arial, Helvetica, sans-serif;font-size:9pt;color:#909090;}
+.Simple-Red{font-family:Arial, Helvetica, sans-serif;font-size:9pt;color:#FF0000;}
+.Note{font-family:Arial, Helvetica, sans-serif;font-size:7pt;color:#2D2D2D;}
+.Note-Bold{font-family:Arial, Helvetica, sans-serif;font-size:7pt;font-weight:bold;color:#2D2D2D;}
+.Note-Italic{font-family:Arial, Helvetica, sans-serif;font-size:7pt;font-style:italic;color:#2D2D2D;}
+.Attention{font-family:Arial, Helvetica, sans-serif;font-size:9pt;color:#2D2D2D;background-color:#F1C494;}
+.Edit{font-family:Arial, Helvetica, sans-serif;font-size:9pt;color:#2D2D2D;background-color:#FFFFFF;}
+.Edt-ReadOnly{font-family:Arial, Helvetica, sans-serif;font-size:9pt;color:#2D2D2D;background-image:url(res/Edt_ReadOnly_E8DDBF5F_.GIF);background-repeat:repeat;}
+.Selection{font-family:Arial, Helvetica, sans-serif;font-size:9pt;color:#FFFFFF;background-color:#79A2E4;background-image:url(res/Select_ED20368E_.GIF);}
+.Rollover{font-family:Arial, Helvetica, sans-serif;font-size:9pt;color:#2D2D2D;background-color:#B0C6E8;background-image:url(res/Rollover_D2F4BC8E_.GIF);}
+.Link-Negativ{font-family:Arial, Helvetica, sans-serif;font-size:9pt;color:#F4F4F4;text-decoration:underline ;}
+.EvenRows{font-family:Arial, Helvetica, sans-serif;font-size:9pt;color:#2D2D2D;background-color:#E6E6E6;}
+.Section{font-family:Arial, Helvetica, sans-serif;font-size:9pt;color:#003399;}
+.ColTitle{font-family:Arial, Helvetica, sans-serif;font-size:9pt;color:#2D2D2D;background-color:#BFBFBF;background-image:url(res/Table_ColTitle_B3F0472D_.GIF);background-repeat:repeat-x;}
+.Link-Negativ-Bold{font-family:Arial, Helvetica, sans-serif;font-size:9pt;font-weight:bold;color:#F4F4F4;text-decoration:underline ;}
+.Section-Bold{font-family:Arial, Helvetica, sans-serif;font-size:9pt;font-weight:bold;color:#003399;}
+.SubTitle{font-family:Arial, Helvetica, sans-serif;font-size:12pt;color:#2D2D2D;}
+.SubTitle-Bold{font-family:Arial, Helvetica, sans-serif;font-size:12pt;font-weight:bold;color:#2D2D2D;}
+.SubTitle-Italic{font-family:Arial, Helvetica, sans-serif;font-size:12pt;font-style:italic;color:#2D2D2D;}
+.Title{font-family:Arial, Helvetica, sans-serif;font-size:14pt;color:#2D2D2D;}
+.Title-Bold{font-family:Arial, Helvetica, sans-serif;font-size:14pt;font-weight:bold;color:#2D2D2D;}
+.Radio-Title{font-family:Arial, Helvetica, sans-serif;font-size:12pt;color:#006E12;}
+.Title-Color{font-family:Arial, Helvetica, sans-serif;font-size:14pt;color:#003399;}
+.Link{font-family:Arial, Helvetica, sans-serif;font-size:9pt;color:#2B93FF;text-decoration:underline ;}
+.Link-Bold{font-family:Arial, Helvetica, sans-serif;font-size:9pt;font-weight:bold;color:#2B93FF;text-decoration:underline ;}
+.Link-Center{font-family:Arial, Helvetica, sans-serif;font-size:9pt;color:#2B93FF;text-align:center;text-decoration:underline ;}
+.Link-Negativ-Center{font-family:Arial, Helvetica, sans-serif;font-size:9pt;color:#F4F4F4;text-align:center;text-decoration:underline ;}
+.Link-Color{font-family:Arial, Helvetica, sans-serif;font-size:9pt;color:#003399;text-decoration:underline ;}
+.Link-Color-Bold{font-family:Arial, Helvetica, sans-serif;font-size:9pt;font-weight:bold;color:#003399;text-decoration:underline ;}
+.Link-Color-Center{font-family:Arial, Helvetica, sans-serif;font-size:9pt;color:#003399;text-align:center;text-decoration:underline ;}
+.Simple-Negativ{font-family:Arial, Helvetica, sans-serif;font-size:9pt;color:#F4F4F4;}
+.Simple-Negativ-Bold{font-family:Arial, Helvetica, sans-serif;font-size:9pt;font-weight:bold;color:#F4F4F4;}
+.Simple-Negativ-Italic{font-family:Arial, Helvetica, sans-serif;font-size:9pt;font-style:italic;color:#F4F4F4;}
+.Note-Negativ{font-family:Arial, Helvetica, sans-serif;font-size:7pt;color:#F4F4F4;}
+.Note-Negativ-Bold{font-family:Arial, Helvetica, sans-serif;font-size:7pt;font-weight:bold;color:#F4F4F4;}
+.Note-Negativ-Italic{font-family:Arial, Helvetica, sans-serif;font-size:7pt;font-style:italic;color:#F4F4F4;}
+.SubTitle-Negativ{font-family:Arial, Helvetica, sans-serif;font-size:12pt;color:#F4F4F4;}
+.SubTitle-Negativ-Bold{font-family:Arial, Helvetica, sans-serif;font-size:12pt;font-weight:bold;color:#F4F4F4;}
+.SubTitle-Negativ-Italic{font-family:Arial, Helvetica, sans-serif;font-size:12pt;font-style:italic;color:#F4F4F4;}
+.SubTitle-Color{font-family:Arial, Helvetica, sans-serif;font-size:12pt;color:#003399;}
+.SubTitle-Color-Bold{font-family:Arial, Helvetica, sans-serif;font-size:12pt;font-weight:bold;color:#003399;}
+.SubTitle-Color-Italic{font-family:Arial, Helvetica, sans-serif;font-size:12pt;font-style:italic;color:#003399;}
+.Section-Title{font-family:Arial, Helvetica, sans-serif;font-size:9pt;color:#003399;}
+.Title-Simple{font-family:Arial, Helvetica, sans-serif;font-size:14pt;color:#2D2D2D;}
+.Title-Simple-Bold{font-family:Arial, Helvetica, sans-serif;font-size:14pt;font-weight:bold;color:#2D2D2D;}
+.Note-Color{font-family:Arial, Helvetica, sans-serif;font-size:7pt;color:#003399;}
+.Note-Color-Bold{font-family:Arial, Helvetica, sans-serif;font-size:7pt;font-weight:bold;color:#003399;}
+.Note-Color-Italic{font-family:Arial, Helvetica, sans-serif;font-size:7pt;font-style:italic;color:#003399;}
+.Title-Color-Bold{font-family:Arial, Helvetica, sans-serif;font-size:14pt;font-weight:bold;color:#003399;}
+.Simple-Bckgrd{font-family:Arial, Helvetica, sans-serif;font-size:9pt;color:#2D2D2D;background-color:#F4F4F4;}
+.Border{font-family:Arial, Helvetica, sans-serif;font-size:9pt;color:#2D2D2D;}
+.Border-Bckgrd{font-family:Arial, Helvetica, sans-serif;font-size:9pt;color:#2D2D2D;background-color:#F4F4F4;}
+.Border-Bckgrd-Color{font-family:Arial, Helvetica, sans-serif;font-size:9pt;color:#2D2D2D;background-color:#BFBFBF;}
+.Border-Bckgrd-Negativ{font-family:Arial, Helvetica, sans-serif;font-size:9pt;color:#F4F4F4;background-color:#2D2D2D;}
+.Edit-Blank{font-family:Arial, Helvetica, sans-serif;font-size:9pt;color:#2D2D2D;border-width : 0px; }
+.Simple-Bckgrd-Negativ{font-family:Arial, Helvetica, sans-serif;font-size:9pt;color:#F4F4F4;background-color:#2D2D2D;}
+.Border-Negativ{font-family:Arial, Helvetica, sans-serif;font-size:9pt;color:#F4F4F4;}
+.CompanyName{font-family:Arial, Helvetica, sans-serif;font-size:24pt;color:#2D2D2D;}
+.STCTitle-Left{font-family:Arial, Helvetica, sans-serif;font-size:9pt;color:#F4F4F4;text-align:center;vertical-align:middle;background-image:url(res/ColTitle_Left_9E88C6_.GIF);}
+.STCTitle-Right{font-family:Arial, Helvetica, sans-serif;font-size:9pt;color:#2D2D2D;text-align:center;vertical-align:middle;background-image:url(res/ColTitle_Right_6677C8A2_.GIF);}
+.Edit-Bckgrd{font-family:Arial, Helvetica, sans-serif;font-size:9pt;color:#2D2D2D;text-align:center;vertical-align:middle;background-image:url(res/Edt_Search_74C68499_.GIF);background-repeat:no-repeat;border-width : 0px; }
+.Link-Header{font-family:Arial, Helvetica, sans-serif;font-size:9pt;color:#2D2D2D;text-decoration:underline ;}
+.Link-Header-Center{font-family:Arial, Helvetica, sans-serif;font-size:9pt;color:#2D2D2D;text-align:center;text-decoration:underline ;}
+.Btn-Img{font-family:Arial, Helvetica, sans-serif;font-size:9pt;color:#2D2D2D;background-repeat:repeat;}
+.Link-Bckgrd{font-family:Arial, Helvetica, sans-serif;font-size:9pt;color:#2B93FF;text-decoration:underline ;background-color:#F4F4F4;}
+.Btn-Color{font-family:Arial, Helvetica, sans-serif;font-size:9pt;color:#2D2D2D;background-color:#BFBFBF;background-repeat:repeat;}
+.Simple-150-iStyle-Gentle-Light{font-family:Arial, Helvetica, sans-serif;font-size:9pt;color:#2D2D2D;}
+.Simple-Bold-150-iStyle-Gentle-Light{font-family:Arial, Helvetica, sans-serif;font-size:9pt;font-weight:bold;color:#2D2D2D;}
+.Simple-Italic-150-iStyle-Gentle-Light{font-family:Arial, Helvetica, sans-serif;font-size:9pt;font-style:italic;color:#2D2D2D;}
+.Simple-Color-150-iStyle-Gentle-Light{font-family:Arial, Helvetica, sans-serif;font-size:9pt;color:#003399;}
+.Simple-Color-Bold-150-iStyle-Gentle-Light{font-family:Arial, Helvetica, sans-serif;font-size:9pt;font-weight:bold;color:#003399;}
+.Simple-Color-Italic-150-iStyle-Gentle-Light{font-family:Arial, Helvetica, sans-serif;font-size:9pt;font-style:italic;color:#003399;}
+.Simple-BckgrdColor-150-iStyle-Gentle-Light{font-family:Arial, Helvetica, sans-serif;font-size:9pt;color:#2D2D2D;background-color:#BFBFBF;}
+.Simple-Gray-150-iStyle-Gentle-Light{font-family:Arial, Helvetica, sans-serif;font-size:9pt;color:#909090;}
+.Simple-Red-150-iStyle-Gentle-Light{font-family:Arial, Helvetica, sans-serif;font-size:9pt;color:#FF0000;}
+.Note-150-iStyle-Gentle-Light{font-family:Arial, Helvetica, sans-serif;font-size:7pt;color:#2D2D2D;}
+.Note-Bold-150-iStyle-Gentle-Light{font-family:Arial, Helvetica, sans-serif;font-size:7pt;font-weight:bold;color:#2D2D2D;}
+.Note-Italic-150-iStyle-Gentle-Light{font-family:Arial, Helvetica, sans-serif;font-size:7pt;font-style:italic;color:#2D2D2D;}
+.Attention-150-iStyle-Gentle-Light{font-family:Arial, Helvetica, sans-serif;font-size:9pt;color:#2D2D2D;background-color:#F1C494;}
+.Edit-150-iStyle-Gentle-Light{font-family:Arial, Helvetica, sans-serif;font-size:9pt;color:#2D2D2D;background-color:#FFFFFF;}
+.Edt-ReadOnly-150-iStyle-Gentle-Light{font-family:Arial, Helvetica, sans-serif;font-size:9pt;color:#2D2D2D;background-image:url(res/Edt_ReadOnly150_iStyleGentle__Light.png);background-repeat:repeat;}
+.Selection-150-iStyle-Gentle-Light{font-family:Arial, Helvetica, sans-serif;font-size:9pt;color:#FFFFFF;background-color:#79A2E4;background-image:url(res/Select150_iStyleGentle__Light.png);}
+.Rollover-150-iStyle-Gentle-Light{font-family:Arial, Helvetica, sans-serif;font-size:9pt;color:#2D2D2D;background-color:#B0C6E8;background-image:url(res/Rollover150_iStyleGentle__Light.png);}
+.Link-Negativ-150-iStyle-Gentle-Light{font-family:Arial, Helvetica, sans-serif;font-size:9pt;color:#F4F4F4;text-decoration:underline ;}
+.EvenRows-150-iStyle-Gentle-Light{font-family:Arial, Helvetica, sans-serif;font-size:9pt;color:#2D2D2D;background-color:#E6E6E6;}
+.Section-150-iStyle-Gentle-Light{font-family:Arial, Helvetica, sans-serif;font-size:9pt;color:#003399;}
+.ColTitle-150-iStyle-Gentle-Light{font-family:Arial, Helvetica, sans-serif;font-size:9pt;color:#2D2D2D;background-color:#BFBFBF;background-image:url(res/Table_ColTitle150_iStyleGentle__Light.png);background-repeat:repeat-x;}
+.Link-Negativ-Bold-150-iStyle-Gentle-Light{font-family:Arial, Helvetica, sans-serif;font-size:9pt;font-weight:bold;color:#F4F4F4;text-decoration:underline ;}
+.Section-Bold-150-iStyle-Gentle-Light{font-family:Arial, Helvetica, sans-serif;font-size:9pt;font-weight:bold;color:#003399;}
+.SubTitle-150-iStyle-Gentle-Light{font-family:Arial, Helvetica, sans-serif;font-size:12pt;color:#2D2D2D;}
+.SubTitle-Bold-150-iStyle-Gentle-Light{font-family:Arial, Helvetica, sans-serif;font-size:12pt;font-weight:bold;color:#2D2D2D;}
+.SubTitle-Italic-150-iStyle-Gentle-Light{font-family:Arial, Helvetica, sans-serif;font-size:12pt;font-style:italic;color:#2D2D2D;}
+.Title-150-iStyle-Gentle-Light{font-family:Arial, Helvetica, sans-serif;font-size:14pt;color:#2D2D2D;}
+.Title-Bold-150-iStyle-Gentle-Light{font-family:Arial, Helvetica, sans-serif;font-size:14pt;font-weight:bold;color:#2D2D2D;}
+.Radio-Title-150-iStyle-Gentle-Light{font-family:Arial, Helvetica, sans-serif;font-size:12pt;color:#006E12;}
+.Title-Color-150-iStyle-Gentle-Light{font-family:Arial, Helvetica, sans-serif;font-size:14pt;color:#003399;}
+.Link-150-iStyle-Gentle-Light{font-family:Arial, Helvetica, sans-serif;font-size:9pt;color:#2B93FF;text-decoration:underline ;}
+.Link-Bold-150-iStyle-Gentle-Light{font-family:Arial, Helvetica, sans-serif;font-size:9pt;font-weight:bold;color:#2B93FF;text-decoration:underline ;}
+.Link-Center-150-iStyle-Gentle-Light{font-family:Arial, Helvetica, sans-serif;font-size:9pt;color:#2B93FF;text-align:center;text-decoration:underline ;}
+.Link-Negativ-Center-150-iStyle-Gentle-Light{font-family:Arial, Helvetica, sans-serif;font-size:9pt;color:#F4F4F4;text-align:center;text-decoration:underline ;}
+.Link-Color-150-iStyle-Gentle-Light{font-family:Arial, Helvetica, sans-serif;font-size:9pt;color:#003399;text-decoration:underline ;}
+.Link-Color-Bold-150-iStyle-Gentle-Light{font-family:Arial, Helvetica, sans-serif;font-size:9pt;font-weight:bold;color:#003399;text-decoration:underline ;}
+.Link-Color-Center-150-iStyle-Gentle-Light{font-family:Arial, Helvetica, sans-serif;font-size:9pt;color:#003399;text-align:center;text-decoration:underline ;}
+.Simple-Negativ-150-iStyle-Gentle-Light{font-family:Arial, Helvetica, sans-serif;font-size:9pt;color:#F4F4F4;}
+.Simple-Negativ-Bold-150-iStyle-Gentle-Light{font-family:Arial, Helvetica, sans-serif;font-size:9pt;font-weight:bold;color:#F4F4F4;}
+.Simple-Negativ-Italic-150-iStyle-Gentle-Light{font-family:Arial, Helvetica, sans-serif;font-size:9pt;font-style:italic;color:#F4F4F4;}
+.Note-Negativ-150-iStyle-Gentle-Light{font-family:Arial, Helvetica, sans-serif;font-size:7pt;color:#F4F4F4;}
+.Note-Negativ-Bold-150-iStyle-Gentle-Light{font-family:Arial, Helvetica, sans-serif;font-size:7pt;font-weight:bold;color:#F4F4F4;}
+.Note-Negativ-Italic-150-iStyle-Gentle-Light{font-family:Arial, Helvetica, sans-serif;font-size:7pt;font-style:italic;color:#F4F4F4;}
+.SubTitle-Negativ-150-iStyle-Gentle-Light{font-family:Arial, Helvetica, sans-serif;font-size:12pt;color:#F4F4F4;}
+.SubTitle-Negativ-Bold-150-iStyle-Gentle-Light{font-family:Arial, Helvetica, sans-serif;font-size:12pt;font-weight:bold;color:#F4F4F4;}
+.SubTitle-Negativ-Italic-150-iStyle-Gentle-Light{font-family:Arial, Helvetica, sans-serif;font-size:12pt;font-style:italic;color:#F4F4F4;}
+.SubTitle-Color-150-iStyle-Gentle-Light{font-family:Arial, Helvetica, sans-serif;font-size:12pt;color:#003399;}
+.SubTitle-Color-Bold-150-iStyle-Gentle-Light{font-family:Arial, Helvetica, sans-serif;font-size:12pt;font-weight:bold;color:#003399;}
+.SubTitle-Color-Italic-150-iStyle-Gentle-Light{font-family:Arial, Helvetica, sans-serif;font-size:12pt;font-style:italic;color:#003399;}
+.Section-Title-150-iStyle-Gentle-Light{font-family:Arial, Helvetica, sans-serif;font-size:9pt;color:#003399;}
+.Title-Simple-150-iStyle-Gentle-Light{font-family:Arial, Helvetica, sans-serif;font-size:14pt;color:#2D2D2D;}
+.Title-Simple-Bold-150-iStyle-Gentle-Light{font-family:Arial, Helvetica, sans-serif;font-size:14pt;font-weight:bold;color:#2D2D2D;}
+.Note-Color-150-iStyle-Gentle-Light{font-family:Arial, Helvetica, sans-serif;font-size:7pt;color:#003399;}
+.Note-Color-Bold-150-iStyle-Gentle-Light{font-family:Arial, Helvetica, sans-serif;font-size:7pt;font-weight:bold;color:#003399;}
+.Note-Color-Italic-150-iStyle-Gentle-Light{font-family:Arial, Helvetica, sans-serif;font-size:7pt;font-style:italic;color:#003399;}
+.Title-Color-Bold-150-iStyle-Gentle-Light{font-family:Arial, Helvetica, sans-serif;font-size:14pt;font-weight:bold;color:#003399;}
+.Simple-Bckgrd-150-iStyle-Gentle-Light{font-family:Arial, Helvetica, sans-serif;font-size:9pt;color:#2D2D2D;background-color:#F4F4F4;}
+.Border-150-iStyle-Gentle-Light{font-family:Arial, Helvetica, sans-serif;font-size:9pt;color:#2D2D2D;}
+.Border-Bckgrd-150-iStyle-Gentle-Light{font-family:Arial, Helvetica, sans-serif;font-size:9pt;color:#2D2D2D;background-color:#F4F4F4;}
+.Border-Bckgrd-Color-150-iStyle-Gentle-Light{font-family:Arial, Helvetica, sans-serif;font-size:9pt;color:#2D2D2D;background-color:#BFBFBF;}
+.Border-Bckgrd-Negativ-150-iStyle-Gentle-Light{font-family:Arial, Helvetica, sans-serif;font-size:9pt;color:#F4F4F4;background-color:#2D2D2D;}
+.Edit-Blank-150-iStyle-Gentle-Light{font-family:Arial, Helvetica, sans-serif;font-size:9pt;color:#2D2D2D;border-width : 0px; }
+.Simple-Bckgrd-Negativ-150-iStyle-Gentle-Light{font-family:Arial, Helvetica, sans-serif;font-size:9pt;color:#F4F4F4;background-color:#2D2D2D;}
+.Border-Negativ-150-iStyle-Gentle-Light{font-family:Arial, Helvetica, sans-serif;font-size:9pt;color:#F4F4F4;}
+.CompanyName-150-iStyle-Gentle-Light{font-family:Arial, Helvetica, sans-serif;font-size:24pt;color:#2D2D2D;}
+.STCTitle-Left-150-iStyle-Gentle-Light{font-family:Arial, Helvetica, sans-serif;font-size:9pt;color:#F4F4F4;text-align:center;vertical-align:middle;background-image:url(res/ColTitle_Left150_iStyleGentle__Light.png);}
+.STCTitle-Right-150-iStyle-Gentle-Light{font-family:Arial, Helvetica, sans-serif;font-size:9pt;color:#2D2D2D;text-align:center;vertical-align:middle;background-image:url(res/ColTitle_Right150_iStyleGentle__Light.png);}
+.Edit-Bckgrd-150-iStyle-Gentle-Light{font-family:Arial, Helvetica, sans-serif;font-size:9pt;color:#2D2D2D;text-align:center;vertical-align:middle;background-image:url(res/Edt_Search150_iStyleGentle__Light.png);background-repeat:no-repeat;border-width : 0px; }
+.Link-Header-150-iStyle-Gentle-Light{font-family:Arial, Helvetica, sans-serif;font-size:9pt;color:#2D2D2D;text-decoration:underline ;}
+.Link-Header-Center-150-iStyle-Gentle-Light{font-family:Arial, Helvetica, sans-serif;font-size:9pt;color:#2D2D2D;text-align:center;text-decoration:underline ;}
+.Btn-Img-150-iStyle-Gentle-Light{font-family:Arial, Helvetica, sans-serif;font-size:9pt;color:#2D2D2D;background-repeat:repeat;}
+.Link-Bckgrd-150-iStyle-Gentle-Light{font-family:Arial, Helvetica, sans-serif;font-size:9pt;color:#2B93FF;text-decoration:underline ;background-color:#F4F4F4;}
+.Btn-Color-150-iStyle-Gentle-Light{font-family:Arial, Helvetica, sans-serif;font-size:9pt;color:#2D2D2D;background-color:#BFBFBF;background-repeat:repeat;}
+.h-0{height:0px;}
+.d-0{display:none;}
+table{border-collapse:collapse;border-spacing:0}td{padding:0}tr{vertical-align:top}
+form{margin:0}
+.DivCellRel{display:inline;float:left;}

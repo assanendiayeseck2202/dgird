@@ -1,0 +1,3 @@
+//MO364-365.TXT ANA00364 TO ANA00365
+ppm		TAR	873	nouvelle taille enregistrement : 873
+ppm	etat_avance	RUB+		etat_avance est une nouvelle rubrique

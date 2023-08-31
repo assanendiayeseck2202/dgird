@@ -1,0 +1,4 @@
+//MO354-355.TXT ANA00354 TO ANA00355
+type_reunion		FIC-	ancien_budget	Fichier supprimé ancien_budget
+type_reunion		FIC-	ancien_details_budget	Fichier supprimé ancien_details_budget
+ancien_budget		DEL	ancien_budget (IDbudget) et ancien_details_budget (IDbudget)	Liaison supprimée entre les fichiers ancien_budget (IDbudget) et ancien_details_budget (IDbudget)

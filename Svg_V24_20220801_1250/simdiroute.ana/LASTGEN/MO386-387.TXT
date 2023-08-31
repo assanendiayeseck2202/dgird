@@ -1,0 +1,3 @@
+//MO386-387.TXT ANA00386 TO ANA00387
+an_session		TAR	28	nouvelle taille enregistrement : 28
+an_session	valid_ppm	RUB+		valid_ppm est une nouvelle rubrique

@@ -1,0 +1,4 @@
+//MO382-383.TXT ANA00382 TO ANA00383
+etapes_ppm		NFI		nouveau fichier
+tache_ppm		NFI		nouveau fichier
+etapes_ppm		NWL	etapes_ppm (Des_etape) et tache_ppm (Des_etape)	Nouvelle liaison entre les fichiers etapes_ppm (Des_etape) et tache_ppm (Des_etape)

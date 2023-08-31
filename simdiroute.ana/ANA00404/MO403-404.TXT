@@ -1,0 +1,11 @@
+//MO403-404.TXT ANA00403 TO ANA00404
+type_docs_marches		NFI		nouveau fichier
+porte_docu_marches		NFI		nouveau fichier
+porte_docu_visible_par_marches		NFI		nouveau fichier
+type_docs_marches		NWL	type_docs_marches (des_type_docs) et porte_docu_marches (Des_type_docs)	Nouvelle liaison entre les fichiers type_docs_marches (des_type_docs) et porte_docu_marches (Des_type_docs)
+utiilisat		NWL	utiilisat (macle_repli_utilisat) et porte_docu_marches (poste_par)	Nouvelle liaison entre les fichiers utiilisat (macle_repli_utilisat) et porte_docu_marches (poste_par)
+porte_docu_marches		NWL	porte_docu_marches (IDDocs) et porte_docu_visible_par_marches (IDDocs)	Nouvelle liaison entre les fichiers porte_docu_marches (IDDocs) et porte_docu_visible_par_marches (IDDocs)
+type_docs_marches		FRN		
+porte_docu_marches		FRN		
+porte_docu_visible_par_marches		FRN		
+porte_docu_marches	fic_doc	RRN		

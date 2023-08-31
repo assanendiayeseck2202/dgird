@@ -1,0 +1,13 @@
+//MO360-361.TXT ANA00360 TO ANA00361
+ppm		NFI		nouveau fichier
+Connexion à HyperFileSQL Client/Serveur		CNX+		
+ppm		FRN		
+ppm	reference	RRN		
+ppm	realisation	RRN		
+ppm	source_fi	RRN		
+ppm	date_prev_lancement	RRN		
+ppm	date_prev_attribution	RRN		
+ppm	date_prev_demarrage	RRN		
+ppm	date_prev_achevement	RRN		
+ppm	code_budget	RRN		
+ppm	mt_prev	RRN		

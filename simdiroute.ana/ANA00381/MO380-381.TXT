@@ -1,0 +1,2 @@
+//MO380-381.TXT ANA00380 TO ANA00381
+notif_acteurs_principaux		NFI		nouveau fichier

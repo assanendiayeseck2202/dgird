@@ -1,0 +1,5 @@
+//MO370-371.TXT ANA00370 TO ANA00371
+ppm		TAR	1230	nouvelle taille enregistrement : 1230
+ppm	realisation	TAI+	150	la rubrique realisation a comme nouvelle taille 301 au lieu de 151
+ppm	Type_marche	CNW	Chaîne$Entier sur 2 octets	la rubrique Type_marche a pour nouveau type Chaîne
+ppm	Mode_passation	CNW	Chaîne$Entier sur 2 octets	la rubrique Mode_passation a pour nouveau type Chaîne

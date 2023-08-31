@@ -1,0 +1,4 @@
+//MO365-366.TXT ANA00365 TO ANA00366
+ppm		TAR	932	nouvelle taille enregistrement : 932
+ppm	macle_ppm	RUB+		macle_ppm est une nouvelle clé
+ppm	reference	TAI+	8	la rubrique reference a comme nouvelle taille 21 au lieu de 13

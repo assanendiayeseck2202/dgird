@@ -1,0 +1,3 @@
+//MO375-376.TXT ANA00375 TO ANA00376
+an_session		TAR	27	nouvelle taille enregistrement : 27
+an_session	valid_cloture	RUB+		valid_cloture est une nouvelle rubrique

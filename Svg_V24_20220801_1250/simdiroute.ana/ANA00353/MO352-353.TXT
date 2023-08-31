@@ -1,0 +1,3 @@
+//MO352-353.TXT ANA00352 TO ANA00353
+Missions		TAR	4429	nouvelle taille enregistrement : 4429
+Missions	entite_de_la_mission	RUB+		entite_de_la_mission est une nouvelle rubrique

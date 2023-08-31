@@ -1,0 +1,3 @@
+//MO396-397.TXT ANA00396 TO ANA00397
+montest$		NFI		nouveau fichier
+Connexion à 'C:\Users\HP15\Documents\Direction des routes\Realisation\Docs passation des marches\PPM 2020 V1 SM modifié par zac.xlsx'		CNX+		

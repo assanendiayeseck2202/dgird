@@ -1,0 +1,2 @@
+//MO400-401.TXT ANA00400 TO ANA00401
+montest$	date_prev_lancement	NNR	Date prévue de lancement de la procédure de sélection	ATTENTION : la rubrique Date prévue de lancement de la procédure de sélection a pour nouveau nom date_prev_lancement

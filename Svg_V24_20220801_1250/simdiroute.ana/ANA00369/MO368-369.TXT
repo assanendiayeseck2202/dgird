@@ -1,0 +1,4 @@
+//MO368-369.TXT ANA00368 TO ANA00369
+type_marches		NFI		nouveau fichier
+mode_passation		NFI		nouveau fichier
+sources_fi		NFI		nouveau fichier

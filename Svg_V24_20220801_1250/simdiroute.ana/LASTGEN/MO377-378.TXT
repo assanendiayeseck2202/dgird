@@ -1,0 +1,3 @@
+//MO377-378.TXT ANA00377 TO ANA00378
+aefacer		TAR	69	nouvelle taille enregistrement : 69
+aefacer	Des_directio	TAI+	1	la rubrique Des_directio a comme nouvelle taille 52 au lieu de 51

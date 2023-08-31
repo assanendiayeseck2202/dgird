@@ -1,0 +1,2 @@
+//MO401-402.TXT ANA00401 TO ANA00402
+montest$	numordre	CLEU*		la rubrique numordre est maintenant une clé
